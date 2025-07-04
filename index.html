@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bu Bizim Aşkımız İçin</title>
+  <meta name="robots" content="noindex">
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive;
+      background: linear-gradient(to right, #ffb6c1, #ffe4e1);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #333;
+    }
+    input, button {
+      padding: 12px;
+      border-radius: 12px;
+      border: none;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>💖 Bu Bizim Aşkımız İçin 💖</h1>
+  <p>Şifreyi biliyorsan devam edebilirsin...</p>
+  <input type="password" id="password" placeholder="Şifreyi gir...">
+  <button onclick="checkPassword()">Giriş</button>
+
+  <script>
+    function checkPassword() {
+      const pass = document.getElementById("password").value;
+      if (pass === "askimiz2025") {
+        window.location.href = "secret.html";
+      } else {
+        alert("Şifre yanlış 😕");
+      }
+    }
+  </script>
+</body>
+</html>

@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <title>Sadece Bizim İçin</title>
+  <title>Bu Bizim Aşkımız İçin</title>
   <meta name="robots" content="noindex">
   <style>
     body {
@@ -24,7 +24,7 @@
   </style>
 </head>
 <body>
-  <h1>💖 Gizli Alan 💖</h1>
+  <h1>💖 Bu Bizim Aşkımız İçin 💖</h1>
   <p>Şifreyi biliyorsan devam edebilirsin...</p>
   <input type="password" id="password" placeholder="Şifreyi gir...">
   <button onclick="checkPassword()">Giriş</button>
